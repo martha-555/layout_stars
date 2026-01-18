@@ -8,7 +8,7 @@ html {
   height: 116px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .stars {
@@ -18,7 +18,7 @@ html {
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
   width: 16px;
   height: 16px;
 }
